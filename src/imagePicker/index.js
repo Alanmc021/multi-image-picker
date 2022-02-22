@@ -124,7 +124,7 @@ export default function App({ navigation, goToImagePicker }) {
                         Errors={widgetErrors}
                         Styles={widgetStyles}
                         Navigator={widgetNavigator}
-                    // Resize={widgetResize} know how to use first , perform slower results.
+                        Resize={widgetResize}  
                     />
                 </View>
                 <Image
