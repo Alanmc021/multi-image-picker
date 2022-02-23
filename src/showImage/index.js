@@ -6,16 +6,7 @@ import firebase from "../../firebase"
 import * as ImagePicker from 'expo-image-picker';
 
 const App = ({ route }) => {
-    const [uri, setUri] = useState([])
-
-    // const uploadImage = async (uri) => {
-    //     const response = await fetch(uri);
-    //     const blob = await response.blob();
-    //     var ref = firebase.storage().ref().child("imagesValidationID/")
-    //     //getUriInFirebase(imageName)
-    //     return ref.put(blob);
-    // }
-
+    const [uri, setUri] = useState([])  
     const pickImage = async () => {
         // No permissions request is necessary for launching the image library
         let result = await ImagePicker.launchImageLibraryAsync({

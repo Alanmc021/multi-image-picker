@@ -5,7 +5,7 @@ import "firebase/firestore"
 import 'firebase/storage'
 
 var firebaseConfig = {
-    //Firebase Keys
+   //Firebase keys
 };
 
 if (!firebase.apps.length) { 
